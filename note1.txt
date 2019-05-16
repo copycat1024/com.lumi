@@ -1,0 +1,246 @@
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ZigBeeDevice has been inited
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] MyZigBeeDevice has been inited
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ------------------------------------------
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] Node: 2e930581-1af8-4dff-a6d9-351dc995841e
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] - Battery: false
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] - Endpoints: 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] -- Clusters:
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- zapp
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genBasic
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genBasic
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- zclVersion : 2
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- appVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- stackVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- hwVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- manufacturerName : Lumi
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- modelId : LM-SZ4
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- powerSource : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genIdentify
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genIdentify
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- identifyTime : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genGroups
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genGroups
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- nameSupport : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genScenes
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genScenes
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- count : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- currentScene : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- currentGroup : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sceneValid : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- nameSupport : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genOnOff
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genOnOff
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- onOff : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] - Endpoints: 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] -- Clusters:
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- zapp
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genBasic
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genBasic
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- zclVersion : 2
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- appVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- stackVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- hwVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- manufacturerName : Lumi
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- modelId : LM-SZ4
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- powerSource : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genIdentify
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genIdentify
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- identifyTime : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genOnOff
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genOnOff
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] - Endpoints: 2
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] -- Clusters:
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- zapp
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genBasic
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genBasic
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- zclVersion : 2
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- appVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- stackVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- hwVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- manufacturerName : Lumi
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- modelId : LM-SZ4
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- powerSource : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genIdentify
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genIdentify
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- identifyTime : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genGroups
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genGroups
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- nameSupport : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genScenes
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genScenes
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- count : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- currentScene : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- currentGroup : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sceneValid : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- nameSupport : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genOnOff
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genOnOff
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- onOff : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] - Endpoints: 3
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] -- Clusters:
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- zapp
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genBasic
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genBasic
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- zclVersion : 2
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- appVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- stackVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- hwVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- manufacturerName : Lumi
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- modelId : LM-SZ4
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- powerSource : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genIdentify
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genIdentify
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- identifyTime : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genOnOff
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genOnOff
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] - Endpoints: 4
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] -- Clusters:
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- zapp
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genBasic
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genBasic
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- zclVersion : 2
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- appVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- stackVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- hwVersion : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- manufacturerName : Lumi
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- modelId : LM-SZ4
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- powerSource : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genIdentify
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genIdentify
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- identifyTime : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genGroups
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genGroups
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- nameSupport : 0
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] --- genScenes
+2019-05-09 14:57:45 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genScenes
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- count : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- currentScene : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- currentGroup : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sceneValid : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- nameSupport : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- genOnOff
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genOnOff
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- onOff : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] - Endpoints: 5
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] -- Clusters:
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- zapp
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- genBasic
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genBasic
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- zclVersion : 2
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- appVersion : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- stackVersion : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- hwVersion : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- manufacturerName : Lumi
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- modelId : LM-SZ4
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- powerSource : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- genIdentify
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genIdentify
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- identifyTime : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- genOnOff
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genOnOff
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] - Endpoints: 6
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] -- Clusters:
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- zapp
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- genBasic
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genBasic
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- zclVersion : 2
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- appVersion : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- stackVersion : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- hwVersion : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- manufacturerName : Lumi
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- modelId : LM-SZ4
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- powerSource : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- genIdentify
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genIdentify
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- identifyTime : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- genGroups
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genGroups
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- nameSupport : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- genScenes
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genScenes
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- count : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- currentScene : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- currentGroup : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sceneValid : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- nameSupport : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- genOnOff
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genOnOff
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- onOff : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] - Endpoints: 7
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] -- Clusters:
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- zapp
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- genBasic
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genBasic
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- zclVersion : 2
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- appVersion : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- stackVersion : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- hwVersion : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- manufacturerName : Lumi
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- modelId : LM-SZ4
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- powerSource : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- genIdentify
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- 65533 : 1
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genIdentify
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- identifyTime : 0
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] --- genOnOff
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- cid : genOnOff
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ---- sid : attrs
+2019-05-09 14:57:46 [log] [ManagerDrivers] [lm_sz4] [0] ------------------------------------------

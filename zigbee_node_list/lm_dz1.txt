@@ -1,0 +1,74 @@
+LM_DZ1 has been inited
+------------------------------------------
+Node: 401b464d-7036-4815-afd7-9dfc7ddfdb88
+- Battery: false
+- Endpoints: 0
+-- Clusters:
+--- zapp
+--- genBasic
+---- 65533 : 1
+---- cid : genBasic
+---- sid : attrs
+---- zclVersion : 2
+---- appVersion : 1
+---- stackVersion : 1
+---- hwVersion : 1
+---- manufacturerName : Lumi
+---- modelId : LM-DZ1
+---- powerSource : 0
+--- genIdentify
+---- 65533 : 1
+---- cid : genIdentify
+---- sid : attrs
+---- identifyTime : 0
+--- genGroups
+---- 65533 : 1
+---- cid : genGroups
+---- sid : attrs
+---- nameSupport : 0
+--- genScenes
+---- 65533 : 1
+---- cid : genScenes
+---- sid : attrs
+---- count : 0
+---- currentScene : 0
+---- currentGroup : 0
+---- sceneValid : 0
+---- nameSupport : 0
+--- genOnOff
+---- 65533 : 1
+---- cid : genOnOff
+---- sid : attrs
+---- onOff : 0
+--- genLevelCtrl
+---- 15 : 0
+---- 65533 : 1
+---- cid : genLevelCtrl
+---- sid : attrs
+---- currentLevel : 0
+- Endpoints: 1
+-- Clusters:
+--- zapp
+--- genBasic
+---- 65533 : 1
+---- cid : genBasic
+---- sid : attrs
+---- zclVersion : 2
+---- appVersion : 1
+---- stackVersion : 1
+---- hwVersion : 1
+---- manufacturerName : Lumi
+---- modelId : LM-DZ1
+---- powerSource : 0
+--- genIdentify
+---- 65533 : 1
+---- cid : genIdentify
+---- sid : attrs
+---- identifyTime : 0
+--- genOnOff
+---- cid : genOnOff
+---- sid : attrs
+--- genLevelCtrl
+---- cid : genLevelCtrl
+---- sid : attrs
+------------------------------------------
