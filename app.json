@@ -1,5 +1,5 @@
 {
-  "id": "com.iola.test",
+  "id": "com.iola.lumi",
   "version": "1.0.0",
   "compatibility": ">=1.5.0",
   "sdk": 2,
@@ -18,8 +18,8 @@
     "small": "/assets/images/small.png"
   },
   "author": {
-    "name": "Bao Tran",
-    "email": "quocbao.info@gmail.com"
+    "name": "Hien Tran",
+    "email": "tm.hien102@gmail.com"
   },
   "capabilities": {
     "quick_onoff": {
@@ -141,7 +141,7 @@
           {
             "name": "my_device",
             "type": "device",
-            "filter": "driver_id=lm_sz2|lm_fz1"
+            "filter": "driver_id=lm_sz2"
           },
           {
             "type": "dropdown",
@@ -502,39 +502,13 @@
   },
   "drivers": [
     {
-      "id": "lm_dz1",
-      "name": {
-        "en": "Trimmer - 1 Buttons (DZ1)"
-      },
-      "capabilities": [
-        "sw1_onoff"
-      ],
-      "class": "other",
-      "zigbee": {
-        "manufacturerName": "Lumi",
-        "productId": "LM-DZ1",
-        "deviceId": 257,
-        "profileId": 260,
-        "learnmode": {
-          "image": "/drivers/lm_dz1/assets/icon.svg",
-          "instruction": {
-            "en": "Press and hold any switch button until the light change to pink then release"
-          }
-        }
-      },
-      "images": {
-        "large": "/drivers/lm_dz1/assets/images/large.png",
-        "small": "/drivers/lm_dz1/assets/images/small.png"
-      }
-    },
-    {
       "id": "lm_fz1",
       "name": {
-        "en": "Level switch - 2 Buttons (FZ1)"
+        "en": "Level control - Up/Down Buttons (FZ1)"
       },
       "capabilities": [
-        "sw1_onoff",
-        "sw2_onoff"
+        "onoff.1",
+        "dim.1"
       ],
       "class": "other",
       "zigbee": {
@@ -555,14 +529,53 @@
       }
     },
     {
+      "id": "lm_dz1",
+      "name": {
+        "en": "Level control - 1 Button (DZ1)"
+      },
+      "capabilities": [
+        "onoff.1",
+        "dim.1"
+      ],
+      "class": "other",
+      "zigbee": {
+        "manufacturerName": "Lumi",
+        "productId": "LM-DZ1",
+        "deviceId": 257,
+        "profileId": 260,
+        "learnmode": {
+          "image": "/drivers/lm_dz1/assets/icon.svg",
+          "instruction": {
+            "en": "Press and hold any switch button until the light change to pink then release"
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/lm_dz1/assets/images/large.png",
+        "small": "/drivers/lm_dz1/assets/images/small.png"
+      }
+    },
+    {
       "id": "lm_sz2",
       "name": {
         "en": "Wall Switch - 2 Buttons (SZ2)"
       },
       "capabilities": [
-        "sw1_onoff",
-        "sw2_onoff"
+        "onoff.1",
+        "onoff.2"
       ],
+      "capabilitiesOptions": {
+        "onoff.1": {
+          "title": {
+            "en": "Switch 1"
+          }
+        },
+        "onoff.2": {
+          "title": {
+            "en": "Switch 2"
+          }
+        }
+      },
       "class": "other",
       "zigbee": {
         "manufacturerName": "Lumi",
@@ -587,11 +600,33 @@
         "en": "Wall Switch - 4 Buttons (SZ4)"
       },
       "capabilities": [
-        "sw1_onoff",
-        "sw2_onoff",
-        "sw3_onoff",
-        "sw4_onoff"
+        "onoff.1",
+        "onoff.2",
+        "onoff.3",
+        "onoff.4"
       ],
+      "capabilitiesOptions": {
+        "onoff.1": {
+          "title": {
+            "en": "Switch 1"
+          }
+        },
+        "onoff.2": {
+          "title": {
+            "en": "Switch 2"
+          }
+        },
+        "onoff.3": {
+          "title": {
+            "en": "Switch 3"
+          }
+        },
+        "onoff.4": {
+          "title": {
+            "en": "Switch 4"
+          }
+        }
+      },
       "class": "other",
       "zigbee": {
         "manufacturerName": "Lumi",

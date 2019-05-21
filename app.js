@@ -1,100 +1,77 @@
-'use strict';
+'use strict'
 
-const Homey = require('homey');
+const Homey = require('homey')
+const { Coordinator } = require('homey-agressive-zigbee')
+const { triggerListeners, conditionListeners, actionListeners } = require('./flow')
 
-class MyApp extends Homey.App {
+class LumiApp extends Homey.App {
 
-	async onInit() {
-		this.log('MyApp is running...')
+	onInit() {
+		this.log('Lumi app is running...')
 
-		// listeners
-		const triggerListener = function (args, state) {
-			this.log('Trigger on ', args.my_device.id, ':', state.switchNumber, '. State:', state.value)
-			return Promise.resolve(this.matchSwitch(args, state))
-		}
+		this.coordinator = new Coordinator()
+		this.listeners = {}
+		this.cards = {}
 
-		const conditionListener = function (args, state) {
-			state.switchNumber = this._getSwitchNumber(args)
-			state.value = args.my_device.value[state.switchNumber]
-			this.log('Condition on switch:', state.switchNumber, '. State:', state.value)
-			return Promise.resolve(this.matchSwitch(args, state))
-		}
+		this.registerTrigger('trigger_sz2', 'onoff')
+		this.registerTrigger('trigger_sz4', 'onoff')
 
-		const actionListener = function (args) {
-			let switch_number = this._getSwitchNumber(args)
-			let switch_state = args.switch_state === 'state_on'
-			this.log('Action on switch:', switch_number, '. State:', switch_state)
+		this.registerCondition('condition_sz2', 'onoff')
+		this.registerCondition('condition_sz4', 'onoff')
 
-			let device = args.my_device
-			device.setState(switch_number, switch_state)
-
-			return Promise.resolve(true)
-		}
-
-		// register triggers
-		this.lumiTrigger4 = new Homey.FlowCardTriggerDevice('trigger_sz4').register()
-		this.lumiTrigger4.registerRunListener(triggerListener)
-
-		this.lumiTrigger2 = new Homey.FlowCardTriggerDevice('trigger_sz2').register()
-		this.lumiTrigger2.registerRunListener(triggerListener)
-
-		this.lumiTrigger1 = new Homey.FlowCardTriggerDevice('trigger_sz1').register()
-		this.lumiTrigger1.registerRunListener(triggerListener)
-
-		// register conditions
-		this.lumiCondition4 = new Homey.FlowCardCondition('condition_sz4').register()
-		this.lumiCondition4.registerRunListener(conditionListener)
-
-		this.lumiCondition2 = new Homey.FlowCardCondition('condition_sz2').register()
-		this.lumiCondition2.registerRunListener(conditionListener)
-
-		this.lumiCondition1 = new Homey.FlowCardCondition('condition_sz1').register()
-		this.lumiCondition1.registerRunListener(conditionListener)
-
-		// register actions
-		this.lumiAction4 = new Homey.FlowCardAction('action_sz4').register()
-		this.lumiAction4.registerRunListener(actionListener)
-
-		this.lumiAction2 = new Homey.FlowCardAction('action_sz2').register()
-		this.lumiAction2.registerRunListener(actionListener)
-
-		this.lumiAction1 = new Homey.FlowCardAction('action_sz1').register()
-		this.lumiAction1.registerRunListener(actionListener)
+		this.registerAction('action_sz2', 'onoff')
+		this.registerAction('action_sz4', 'onoff')
 	}
 
-	// match args with switch's state
-	matchSwitch(args, state) {
-		let switch_number = this._getSwitchNumber(args)
-		let switch_state = args.switch_state === 'state_on'
+	// register triggers
+	registerTrigger(name, capabilityId) {
+		// prepare trigger tables
+		this.cards.trigger = this.cards.trigger || {}
+		this.listeners.trigger = this.listeners.trigger || {}
 
-		let con1 = state.switchNumber === switch_number
-		let con2 = state.value === switch_state
-		let next = con1 && con2
+		// load listeners if not already loaded
+		if (!this.listeners.trigger[capabilityId])
+			this.listeners.trigger[capabilityId] = triggerListeners(capabilityId)
 
-		this.log('Match: ', switch_number, state.switchNumber, switch_state, state.value,
-			'. Result', next)
-
-		return next
+		const card = new Homey.FlowCardTriggerDevice(name).register()
+		card.registerRunListener(this.listeners.trigger[capabilityId])
+		this.cards.trigger[name] = card
 	}
 
-	// get switch number
-	_getSwitchNumber(args) {
-		return parseInt(args.switch_number.substr(-1, 1))
+	// register conditions
+	registerCondition(name, capabilityId) {
+		// prepare condition tables
+		this.cards.condition = this.cards.condition || {}
+		this.listeners.condition = this.listeners.condition || {}
+
+		// load listeners if not already loaded
+		if (!this.listeners.condition[capabilityId])
+			this.listeners.condition[capabilityId] = conditionListeners(capabilityId)
+
+		const card = new Homey.FlowCardCondition(name).register()
+		card.registerRunListener(this.listeners.condition[capabilityId])
+		this.cards.condition[name] = card
 	}
 
-	// shared function to trigger Lumi
-	triggerLumi4(device, token, state) {
-		this.lumiTrigger4.trigger(device, token, state).catch(this.error)
+	// register actions
+	registerAction(name, capabilityId) {
+		// prepare action tables
+		this.cards.action = this.cards.action || {}
+		this.listeners.action = this.listeners.action || {}
+
+		// load listeners if not already loaded
+		if (!this.listeners.action[capabilityId])
+			this.listeners.action[capabilityId] = actionListeners(capabilityId)
+
+		const card = new Homey.FlowCardAction(name).register()
+		card.registerRunListener(this.listeners.action[capabilityId])
+		this.cards.action[name] = card
 	}
 
-	triggerLumi2(device, token, state) {
-		this.lumiTrigger2.trigger(device, token, state).catch(this.error)
+	// start a trigger
+	trigger(name, device, token, state) {
+		this.cards.trigger[name].trigger(device, token, state).catch(this.error)
 	}
-
-	triggerLumi1(device, token, state) {
-		this.lumiTrigger1.trigger(device, token, state).catch(this.error)
-	}
-
 }
 
-module.exports = MyApp;
+module.exports = LumiApp

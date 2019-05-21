@@ -1,0 +1,16 @@
+{
+  "name": "com.iola.lumi",
+  "version": "1.0.0",
+  "description": "Adds support for Lumi devices.",
+  "main": "app.js",
+  "dependencies": {
+    "homey-agressive-zigbee": "^1.0.2",
+    "homey-meshdriver": "^1.2.32"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
